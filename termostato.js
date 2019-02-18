@@ -33,6 +33,7 @@ class Termostato  extends EventEmitter {
 
 	indicarTemperaturaIdeal(temperaturaIdeal) {
 		this.temperaturaIdeal = temperaturaIdeal;
+		console.log('hola', this.temperaturaIdeal)
 	}
 
 	encender() {
